@@ -12,13 +12,13 @@ button.dark-mode {
 
 /* dark mode for blog post containers */
 body.dark-mode #posts-container {
-    background-color: #444; /* dark background for the blog container */
+    background-color: #444; 
 }
 
 body.dark-mode li {
-    background-color: #555; /* dark background for each blog post */
-    color: white; /* light text color for the blog post */
-    border-color: white; /* darker border for the blog post */
+    background-color: #555;
+    color: white;
+    border-color: white;
     padding: 10px;
 }
 
@@ -27,9 +27,9 @@ body.dark-mode li h3 {
 }
 
 body.dark-mode footer {
-    background-color: #444; /* dark background for the footer */
+    background-color: #444;
 }
 
 body.dark-mode header {
-    background-color: #444; /* dark background for the header */
+    background-color: #444;
 }
