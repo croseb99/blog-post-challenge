@@ -10,11 +10,12 @@ form.addEventListener('submit', function (event) {
     const errorMessage = document.getElementById('error-message');
     if (!username || !title || !content) {
         errorMessage.textContent = "Please fill in all fields.";
-        localStorage.setItem('username', username); //storing entered username
         return;
     }
 
     errorMessage.textContent = ""; // Clear any previous error message
+
+    localStorage.setItem('username', username);
 
     const blogPost = { username, title, content };
 
