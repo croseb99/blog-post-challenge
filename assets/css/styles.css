@@ -19,7 +19,11 @@ body.dark-mode li {
     background-color: #555; /* dark background for each blog post */
     color: white; /* light text color for the blog post */
     border-color: white; /* darker border for the blog post */
-    padding: 20px;
+    padding: 10px;
+}
+
+body.dark-mode li h3 {
+    border-bottom: 2px solid white;
 }
 
 body.dark-mode footer {

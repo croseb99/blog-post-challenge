@@ -11,12 +11,23 @@ header {
     background-color: #f1f1f1;
 }
 
+header button {
+    margin-left: 10px;
+}
+
+
 button {
     padding: 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+button:hover {
+    background-color: #7dd181;
 }
 
 #posts-container {
@@ -35,6 +46,10 @@ li {
     padding: 10px;
     border-radius: 5px;
     border: 2px solid black;
+}
+
+li h3 {
+    border-bottom: 2px solid gray;
 }
 
 footer {
